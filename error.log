@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+2024-05-28, 14:32:47
+OptiSim Version:	0.6.0
+--------------------------------------------------------------------------------
+<class 'UnboundLocalError'>: 
+local variable 'e1' referenced before assignment
+--------------------------------------------------------------------------------
+  File "OptiSim\ui\dielectric_function.py", line 171, in on_removeOscillator_clicked
+  File "OptiSim\ui\dielectric_function.py", line 241, in update_listOscillator
+  File "OptiSim\ui\dielectric_function.py", line 244, in plotFunction
+  File "OptiSim\ui\dielectric_function.py", line 256, in calcFunction
+  File "OptiSim\ui\dielectric_function.py", line 81, in calcFunction
